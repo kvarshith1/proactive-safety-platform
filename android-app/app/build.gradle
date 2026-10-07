@@ -1,0 +1,16 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.proactivesafety.app"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.proactivesafety.app"
+        minSdk 26
+        targetSdk 36
+        versionCode 6
+        versionName "1.4.1"
+    }
+}

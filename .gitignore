@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Android / Gradle
+android-app/.gradle/
+android-app/build/
+android-app/app/build/
+android-app/manual-build/
+android-app/local.properties
+
+# Java / Android generated files
+*.class
+*.apk
+*.aab
+*.apk.idsig
+*.keystore
+*.jks
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Platform-specific metadata
+.openai/
